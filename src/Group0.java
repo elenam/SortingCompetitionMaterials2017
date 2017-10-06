@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class Group001 {
+public class Group0 {
 
 	public static void main(String[] args) throws InterruptedException, FileNotFoundException {
 		// testing the comparator:

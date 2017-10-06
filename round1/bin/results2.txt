@@ -1,0 +1,205 @@
+Running prelim2.txt
+
+
+ Group 0: 
+
+1782
+
+1781
+
+1782
+
+Median: 1782.0
+Results of diff:
+
+
+ Group 1: 
+
+29223
+
+29226
+
+29224
+
+Median: 29224.0
+Results of diff:
+
+
+ Group 2: 
+
+5477
+
+5487
+
+5476
+
+Median: 5477.0
+Results of diff:
+
+
+ Group 3: 
+
+
+
+
+Median: 0.0
+Results of diff:
+
+
+ Group 4: 
+
+16468
+
+16459
+
+16464
+
+Median: 16464.0
+Results of diff:
+
+
+ Group 5: 
+
+15800
+
+15794
+
+15806
+
+Median: 15800.0
+Results of diff:
+
+
+ Group 6: 
+
+100000
+
+100000
+
+100000
+
+Median: 100000.0
+Results of diff:
+
+
+ Group 7: 
+
+1784
+
+1783
+
+1784
+
+Median: 1784.0
+Results of diff:
+
+Files outRun2Group7.txt and outRun2Group0.txt differ
+
+ Group 8: 
+
+19277
+
+19276
+
+19276
+
+Median: 19276.0
+Results of diff:
+
+
+ Group 9: 
+
+15893
+
+15892
+
+15892
+
+Median: 15892.0
+Results of diff:
+
+
+ Group 10: 
+
+10548
+
+10549
+
+10707
+
+Median: 10549.0
+Results of diff:
+
+
+ Group 11: 
+
+1049
+
+1169
+
+1029
+
+Median: 1049.0
+Results of diff:
+
+
+ Group 12: 
+
+100000
+
+100000
+
+100000
+
+Median: 100000.0
+Results of diff:
+
+
+ Group 13: 
+
+8335
+
+8309
+
+8323
+
+Median: 8323.0
+Results of diff:
+
+
+ Group 14: 
+
+886
+
+886
+
+886
+
+Median: 886.0
+Results of diff:
+
+
+ Group 15: 
+
+100000
+
+100000
+
+100000
+
+Median: 100000.0
+Results of diff:
+
+
+ Group 16: 
+
+1819
+
+1825
+
+1823
+
+Median: 1823.0
+Results of diff:
+
+Files outRun2Group16.txt and outRun2Group0.txt differ
