@@ -86,7 +86,9 @@ Your program must print **the only value**, which is the **time** (as it current
 
 ## Submision deadlines <a name="deadlines"></a>
 
-*Friday, Oct 6* in class (1pm) is the *preliminary* competition. Please send me all your materials no later than 10pm on Thursday, Oct 5. This is required for everyone in the class. Groups remain anonymous after this phase, but all the solutions (in bytecode) become available. 
+*Friday, Oct 6* in class (1pm) is the *first preliminary* competition. Please send me all your materials no later than 10pm on Thursday, Oct 5. This is required for everyone in the class. Groups remain anonymous after this phase, but all the solutions (in bytecode) become available. 
+
+*The second preliminary competition* is done remotely on *Saturday October 14*. Any submission sent before noon on that day will be included. Earlier submissions are certainly welcome. I will run the latest working (i.e. compiling and not going into an infinite loop) submissison I have for each group. 
 
 We may have a second preliminary competition some time the week of Oct 9. 
 
