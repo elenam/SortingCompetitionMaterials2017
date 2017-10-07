@@ -90,8 +90,6 @@ Your program must print **the only value**, which is the **time** (as it current
 
 *The second preliminary competition* is done remotely on *Saturday October 14*. Any submission sent before noon on that day will be included. Earlier submissions are certainly welcome. I will run the latest working (i.e. compiling and not going into an infinite loop) submissison I have for each group. 
 
-We may have a second preliminary competition some time the week of Oct 9. 
-
 *Thursday, Oct 19* in the lab (2pm) is the *final* competition. All source code is posted immediately after that. Those in class will have their names revealed, others may choose to remain anonymous (but the code will still be posted). 
 
 Note that there are several more parts of the Algorithms assignment, including presentations and a write-up. I will post the dates for those later. Obviously, these are only for students in the class. 
