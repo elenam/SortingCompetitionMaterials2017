@@ -111,5 +111,18 @@ I will post a script for running this program (with a correctness check and all)
 
 ## Results of the first preliminary round <a name="round1"></a>
 
+The results of the first preliminary round are posted in the folder [bin/round1](bin/round1). The folder has all the `.class` files. Groups that didn't have a submission (or their submission didn't compile or would go into an infinite loop) were replaced by a file that just had a `main` method printing `100000`. 
 
+Each data file was ran three times for each group, and the median result was used for scoring. 
+
+The data files were: [prelim1.txt](bin/round1/prelim1.txt) (700 numbers) and [prelim2.txt](bin/round1/prelim2.txt) (400 numbers). The correct output is in files [outRun1Group0.txt](bin/round1/outRun1Group0.txt) and [outRun2Group0.txt](bin/round1/outRun2Group0.txt).
+
+The files [results1.txt](bin/round1/results1.txt) and [results2.txt](bin/round1/results2.txt) have the complete timing results for the two data sets. The file [scoreboard.txt](bin/round1/scoreboard.txt) has the places that each team got.  
+
+The ruby script [run_all.rb](bin/round1/run_all.rb) was used to run the programs. If you want to reproduce the results or try them on a different set, so the following:
+* Create a directory in `/tmp` directory on a lab machine. 
+* Copy the entire `bin` folder from github into that directory. 
+* Remove the output files, results1.txt, results2.txt, and the scoreboard.txt. 
+* If you want to run the programs on different data sets, call your data files `prelim1.txt` and 'prelim2.txt` and copy them into the same folder - or copy then by different names, abnd then open the  script and change the files in the `inFileNames`. 
+* Type `taskset -c 0 ruby run_all.rb` to run the script. 
 
