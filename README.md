@@ -115,11 +115,11 @@ The results of the first preliminary round are posted in the folder [bin/round1]
 
 Each data file was ran three times for each group, and the median result was used for scoring. 
 
-The data files were: [prelim1.txt](bin/round1/prelim1.txt) (700 numbers) and [prelim2.txt](bin/round1/prelim2.txt) (400 numbers). The correct output is in files [outRun1Group0.txt](bin/round1/outRun1Group0.txt) and [outRun2Group0.txt](bin/round1/outRun2Group0.txt).
+The data files were: [prelim1.txt](round1/bin/prelim1.txt) (700 numbers) and [prelim2.txt](round1/bin/prelim2.txt) (400 numbers). The correct output is in files [outRun1Group0.txt](round1/bin/outRun1Group0.txt) and [outRun2Group0.txt](round1/bin/outRun2Group0.txt).
 
-The files [results1.txt](bin/round1/results1.txt) and [results2.txt](bin/round1/results2.txt) have the complete timing results for the two data sets. The file [scoreboard.txt](bin/round1/scoreboard.txt) has the places that each team got.  
+The files [results1.txt](round1/bin/results1.txt) and [results2.txt](round1/bin/results2.txt) have the complete timing results for the two data sets. The file [scoreboard.txt](round1/bin/scoreboard.txt) has the places that each team got.  
 
-The ruby script [run_all.rb](bin/round1/run_all.rb) was used to run the programs. If you want to reproduce the results or try them on a different set, so the following:
+The ruby script [run_all.rb](round1/bin/run_all.rb) was used to run the programs. If you want to reproduce the results or try them on a different set, so the following:
 * Create a directory in `/tmp` directory on a lab machine. 
 * Copy the entire `bin` folder from github into that directory. 
 * Remove the output files, results1.txt, results2.txt, and the scoreboard.txt. 
