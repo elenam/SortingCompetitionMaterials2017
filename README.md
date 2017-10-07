@@ -111,7 +111,7 @@ I will post a script for running this program (with a correctness check and all)
 
 ## Results of the first preliminary round <a name="round1"></a>
 
-The results of the first preliminary round are posted in the folder [bin/round1](bin/round1). The folder has all the `.class` files. Groups that didn't have a submission (or their submission didn't compile or would go into an infinite loop) were replaced by a file that just had a `main` method printing `100000`. 
+The results of the first preliminary round are posted in the folder [round1/bin](round1/bin). The folder has all the `.class` files. Groups that didn't have a submission (or their submission didn't compile or would go into an infinite loop) were replaced by a file that just had a `main` method printing `100000`. 
 
 Each data file was ran three times for each group, and the median result was used for scoring. 
 
