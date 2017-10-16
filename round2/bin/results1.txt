@@ -3,11 +3,11 @@ Running prelim3.txt
 
  Group 0: 
 
-1274
+1276
 
 1274
 
-1274
+1273
 
 Median: 1274.0
 Results of diff:
@@ -15,13 +15,13 @@ Results of diff:
 
  Group 1: 
 
-14696
+14695
 
-14696
+14700
 
-14704
+14966
 
-Median: 14696.0
+Median: 14700.0
 Results of diff:
 
 
@@ -29,11 +29,11 @@ Results of diff:
 
 458
 
-458
+459
 
-458
+459
 
-Median: 458.0
+Median: 459.0
 Results of diff:
 
 
@@ -48,13 +48,13 @@ Results of diff:
 
  Group 4: 
 
-13878
-
-13877
+13402
 
 13876
 
-Median: 13877.0
+13879
+
+Median: 13876.0
 Results of diff:
 
 
@@ -62,58 +62,58 @@ Results of diff:
 
 13967
 
-13968
+13970
 
-13966
+13977
 
-Median: 13967.0
+Median: 13970.0
 Results of diff:
 
 
  Group 6: 
 
-100000
+19337
 
-100000
+19355
 
-100000
+19338
 
-Median: 100000.0
+Median: 19338.0
 Results of diff:
 
 
  Group 7: 
 
+1279
+
 1278
 
-1283
+1278
 
-1280
-
-Median: 1280.0
+Median: 1278.0
 Results of diff:
 
 Files outRun1Group7.txt and outRun1Group0.txt differ
 
  Group 8: 
 
+20776
+
 20775
 
-20781
+20779
 
-20777
-
-Median: 20777.0
+Median: 20776.0
 Results of diff:
 
 
  Group 9: 
 
-4289
-
 4287
 
-4294
+4407
+
+4289
 
 Median: 4289.0
 Results of diff:
@@ -121,25 +121,25 @@ Results of diff:
 
  Group 10: 
 
-8622
+8752
 
-8748
+8521
 
-8520
+8775
 
-Median: 8622.0
+Median: 8752.0
 Results of diff:
 
 
  Group 11: 
 
-531
+665
 
-565
+621
 
-501
+483
 
-Median: 531.0
+Median: 621.0
 Results of diff:
 
 
@@ -157,13 +157,13 @@ Results of diff:
 
  Group 13: 
 
-6512
+6526
 
-6490
+6526
 
-6499
+6565
 
-Median: 6499.0
+Median: 6526.0
 Results of diff:
 
 
@@ -171,7 +171,7 @@ Results of diff:
 
 633
 
-634
+633
 
 633
 
@@ -193,11 +193,11 @@ Results of diff:
 
  Group 16: 
 
-1315
+1314
 
 1316
 
-1316
+1319
 
 Median: 1316.0
 Results of diff:
@@ -206,24 +206,24 @@ Files outRun1Group16.txt and outRun1Group0.txt differ
 
  Group 17: 
 
-521
+464
 
-470
+448
 
-446
+447
 
-Median: 470.0
+Median: 448.0
 Results of diff:
 
 
  Group 18: 
 
-82
+111
 
-62
+101
 
-122
+80
 
-Median: 82.0
+Median: 101.0
 Results of diff:
 
