@@ -15,25 +15,25 @@ Results of diff:
 
  Group 1: 
 
-15163
+15175
 
-15167
+15165
 
-15163
+15166
 
-Median: 15163.0
+Median: 15166.0
 Results of diff:
 
 
  Group 2: 
 
-497
+498
 
-497
+496
 
-497
+498
 
-Median: 497.0
+Median: 498.0
 Results of diff:
 
 
@@ -48,47 +48,47 @@ Results of diff:
 
  Group 4: 
 
-13130
+13131
 
-13129
+13132
 
-13129
+13135
 
-Median: 13129.0
+Median: 13132.0
 Results of diff:
 
 
  Group 5: 
 
-13342
+13350
 
-13339
+13343
 
-13341
+13352
 
-Median: 13341.0
+Median: 13350.0
 Results of diff:
 
 
  Group 6: 
 
-12855
+12851
 
-12858
+12864
 
-12844
+12856
 
-Median: 12855.0
+Median: 12856.0
 Results of diff:
 
 
  Group 7: 
 
+1379
+
+1379
+
 1380
-
-1379
-
-1379
 
 Median: 1379.0
 Results of diff:
@@ -97,81 +97,81 @@ Files outRun2Group7.txt and outRun2Group0.txt differ
 
  Group 8: 
 
-19257
+19278
 
 19261
 
-19263
+19262
 
-Median: 19261.0
+Median: 19262.0
 Results of diff:
 
 
  Group 9: 
 
-4686
-
-4685
-
 4682
 
-Median: 4685.0
+4684
+
+4683
+
+Median: 4683.0
 Results of diff:
 
 
  Group 10: 
 
-5530
+5536
 
-5541
+5532
 
-5533
+5529
 
-Median: 5533.0
+Median: 5532.0
 Results of diff:
 
 
  Group 11: 
 
-592
+571
 
-584
+573
 
-565
+582
 
-Median: 584.0
+Median: 573.0
 Results of diff:
 
 
  Group 12: 
 
-100000
+12743
 
-100000
+12740
 
-100000
+12743
 
-Median: 100000.0
+Median: 12743.0
 Results of diff:
 
 
  Group 13: 
 
-6195
+6163
 
-6043
+6123
 
-6100
+6103
 
-Median: 6100.0
+Median: 6123.0
 Results of diff:
 
 
  Group 14: 
 
-680
-
 681
+
+680
 
 680
 
@@ -193,11 +193,11 @@ Results of diff:
 
  Group 16: 
 
-1462
+1461
 
 1462
 
-1462
+1463
 
 Median: 1462.0
 Results of diff:
@@ -206,11 +206,11 @@ Files outRun2Group16.txt and outRun2Group0.txt differ
 
  Group 17: 
 
-578
-
-580
+591
 
 558
+
+578
 
 Median: 578.0
 Results of diff:
@@ -218,12 +218,12 @@ Results of diff:
 
  Group 18: 
 
-108
+85
 
-88
+102
 
-92
+66
 
-Median: 92.0
+Median: 85.0
 Results of diff:
 
