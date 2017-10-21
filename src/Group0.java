@@ -10,7 +10,7 @@ public class Group0 {
 
 	public static void main(String[] args) throws InterruptedException, FileNotFoundException {
 		// testing the comparator:
-		PrimesComparator.testPrimeFactors();
+		Data.testPrimeFactors();
 		
 		if (args.length < 2) {
 			System.out.println("Please run with two command line arguments: input and output file names");
@@ -25,7 +25,7 @@ public class Group0 {
 		
 		String [] toSort = data.clone();
 		
-		String [] sorted = sort(toSort);
+		Data [] sorted = sort(toSort);
 		
 		//printArray(sorted, 100);
 		
@@ -50,9 +50,13 @@ public class Group0 {
 	// Note: you may change the return type of the method. 
 	// You would need to provide your own function that prints your sorted array to 
 	// a file in the exact same format that my program outputs
-	private static String[] sort(String[] toSort) {
-		Arrays.sort(toSort, new PrimesComparator());
-		return toSort;
+	private static Data[] sort(String[] toSort) {
+		Data[] toSortData = new Data[toSort.length];
+		for (int i = 0; i < toSort.length; ++i) {
+			toSortData[i] = new Data(toSort[i]);
+		}
+		Arrays.sort(toSortData, new PrimesComparator());
+		return toSortData;
 	}
 	
 	private static String[] readData(String inFile) throws FileNotFoundException {
@@ -69,38 +73,47 @@ public class Group0 {
 		return input.toArray(new String[0]);
 	}
 	
-	private static void writeOutResult(String[] sorted, String outputFilename) throws FileNotFoundException {
+	private static void writeOutResult(Data[] sorted, String outputFilename) throws FileNotFoundException {
 
 		PrintWriter out = new PrintWriter(outputFilename);
-		for (String n : sorted) {
-			out.println(n);
+		for (Data s : sorted) {
+			out.println(s.number);
 		}
 		out.close();
 
 	}
 	
-	private static class PrimesComparator implements Comparator<String> {
+	private static class PrimesComparator implements Comparator<Data> {
 
 		@Override
-		public int compare(String str1, String str2) {
-			long n = new Long(str1);
-			long m = new Long(str2);
+		public int compare(Data n1, Data n2) {
 			
-			long product1 = productOfPrimeFactors(n);
-			long product2 = productOfPrimeFactors(m);
+			long product1 = n1.primesProduct;
+			long product2 = n2.primesProduct;
 			
 			int result = 0;
 			if (product1 < product2) {
 				result = -1;
 			} else if (product1 > product2) {
 				result = 1;
-			} else if (n < m) {
+			} else if (n1.number < n2.number) {
 				result = -1;				
-			} else if (n > m) {
+			} else if (n1.number > n2.number) {
 				result = 1;
 			}
 			
 			return result;	
+		}
+		
+	}
+	
+	private static class Data {
+		public long number;
+		public long primesProduct = 1;
+		
+		public Data(String numStr) {
+			number = new Long(numStr);
+			primesProduct =  productOfPrimeFactors(number);
 		}
 		
 		// Takes a long number and returns the product of its up to two 
@@ -175,6 +188,7 @@ public class Group0 {
 				System.out.println(productOfPrimeFactors(1));
 			}
 		}
+		
 	}
 
 }
