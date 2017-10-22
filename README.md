@@ -126,3 +126,23 @@ The ruby script [run_all.rb](round1/bin/run_all.rb) was used to run the programs
 * If you want to run the programs on different data sets, call your data files `prelim1.txt` and 'prelim2.txt` and copy them into the same folder - or copy then by different names, abnd then open the  script and change the files in the `inFileNames`. 
 * Type `taskset -c 0 ruby run_all.rb` to run the script. 
 
+## Results of the competition
+
+Congratulations to the winners and thanks to all for participating! The results are in the
+[scoreboard](final/bin/scoreboard.txt)
+
+* Group 18 (not in the class): Kevin Arhelger.
+* Group 17 (not in the class): Dan Stelljes, Shawn Seymour
+* Group 11 (1st place in the class): Shawn, Brian.
+* Group 2 (2nd place in the class): Xai, Marshall
+* Group 1 (3rd place in the class): Roch, Andy
+* Group 10 (4th place in class): Nathan, Courtney
+* Group 9 (5th place in the class): Travis, Chuck 
+* Group 7 (6th place in the class): Song, Kai
+* Group 4 (7th place in the class): Kyle F., RJ
+* Group 13 (8th place in the class): Adam, Philip
+* Group 8 (9th place in the class): Shamund, Jacob
+* Group 12 (10th place in the class): Luz, Francisco
+* Group 6 (11th place in the class): Kyle D, Danish
+* Group 5 (12th place in the class): Kyle F., Matt
+* Group 3 didn't sort correctly: Ben, Aidan.
