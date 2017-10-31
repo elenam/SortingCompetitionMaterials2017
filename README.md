@@ -12,6 +12,8 @@ Materials for UMM CSci 3501 "Algorithms and computability" 2017 sorting competit
 * [Scoring](#scoring)
 * [System specs](#specs)
 * [Results of the first preliminary round](#round1)
+* [Results of the final competition](#final)
+* [Presentations](#presentation)
 
 
 ## Goal of the competition <a name="goal"></a>
@@ -126,7 +128,7 @@ The ruby script [run_all.rb](round1/bin/run_all.rb) was used to run the programs
 * If you want to run the programs on different data sets, call your data files `prelim1.txt` and 'prelim2.txt` and copy them into the same folder - or copy then by different names, abnd then open the  script and change the files in the `inFileNames`. 
 * Type `taskset -c 0 ruby run_all.rb` to run the script. 
 
-## Results of the competition
+## Results of the competition <a name="final"></a>
 
 Congratulations to the winners and thanks to all for participating! The results are in the
 [scoreboard](final/bin/scoreboard.txt)
@@ -147,7 +149,7 @@ Congratulations to the winners and thanks to all for participating! The results 
 * Group 5 (12th place in the class): Kyle F., Matt
 * Group 3 didn't sort correctly: Ben, Aidan
 
-## Presentations
+## Presentations <a name="presentation"></a>
 
 The presentations will be on Thursday Nov 2nd in the lab. Each group needs to submit a
 set of 4-5 pdf slides by 11:59pm Wedn Nov 1; you would have 3-4 minutes to present. Both group members must be a part of a presentation. The presentation must have:
@@ -157,7 +159,7 @@ set of 4-5 pdf slides by 11:59pm Wedn Nov 1; you would have 3-4 minutes to prese
 * Big-picture description of your algorithm and data representation (what sorting have you used?
 what were you storing? Precomputing?)
 * The theoretical worst case efficiency and expected efficiency. For instance, insertion sort in theory has a quadratic efficiency, but if you are using it only on almost-sorted data, it's close to linear.
-* Intersting features of your algorithm.
+* The most intersting features of your algorithm.
 * What worked, what didn't, what you would've done differently.
 
 Be prepared to answer questions. 
