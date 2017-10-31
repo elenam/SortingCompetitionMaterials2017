@@ -131,9 +131,9 @@ The ruby script [run_all.rb](round1/bin/run_all.rb) was used to run the programs
 Congratulations to the winners and thanks to all for participating! The results are in the
 [scoreboard](final/bin/scoreboard.txt)
 
-* Group 18 (not in the class): Kevin Arhelger.
+* Group 18 (not in the class): Kevin Arhelger
 * Group 17 (not in the class): Dan Stelljes, Shawn Seymour
-* Group 11 (1st place in the class): Shawn, Brian.
+* Group 11 (1st place in the class): Shawn, Brian
 * Group 2 (2nd place in the class): Xai, Marshall
 * Group 1 (3rd place in the class): Roch, Andy
 * Group 10 (4th place in class): Nathan, Courtney
@@ -145,4 +145,19 @@ Congratulations to the winners and thanks to all for participating! The results 
 * Group 12 (10th place in the class): Luz, Francisco
 * Group 6 (11th place in the class): Kyle D, Danish
 * Group 5 (12th place in the class): Kyle F., Matt
-* Group 3 didn't sort correctly: Ben, Aidan.
+* Group 3 didn't sort correctly: Ben, Aidan
+
+## Presentations
+
+The presentations will be on Thursday Nov 2nd in the lab. Each group needs to submit a
+set of 4-5 pdf slides by 11:59pm Wedn Nov 1; you would have 3-4 minutes to present. Both group members must be a part of a presentation. The presentation must have:
+
+* Your names (first names ok since this will be on github) and group number,
+* Your results of the competition (overall place, times, correctness). If there were any correctness concerns, they need to be addressed.
+* Big-picture description of your algorithm and data representation (what sorting have you used?
+what were you storing? Precomputing?)
+* The theoretical worst case efficiency and expected efficiency. For instance, insertion sort in theory has a quadratic efficiency, but if you are using it only on almost-sorted data, it's close to linear.
+* Intersting features of your algorithm.
+* What worked, what didn't, what you would've done differently.
+
+Be prepared to answer questions. 
