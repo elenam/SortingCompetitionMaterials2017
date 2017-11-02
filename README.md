@@ -163,3 +163,6 @@ what were you storing? Precomputing?)
 * What worked, what didn't, what you would've done differently.
 
 Be prepared to answer questions. 
+
+## Final write-up <a name="writeup"></a>
+
