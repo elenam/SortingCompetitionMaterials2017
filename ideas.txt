@@ -1,0 +1,3 @@
+Have to get the product of the two smallest prime numbers.
+In productOfPrimeFactors, create two versions of the method: one that uses the int data type, and one that uses long.
+This should help runtime. Look to see if we can optimize these methods as well.
